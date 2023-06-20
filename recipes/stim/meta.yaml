@@ -1,16 +1,12 @@
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: stim
   version: {{ version }}
 
 source:
-  # uncomment the line below, and modify as needed. Use releases if available:
-  # url: https://github.com/simplejson/simplejson/releases/download/{{ version }}/simplejson-{{ version }}.tar.gz
-  # and otherwise fall back to archive:
-  # https://github.com/simplejson/simplejson/archive/v{{ version }}.tar.gz
-  url: https://github.com/PreibischLab/STIM/archive/refs/heads/master.zip
-  sha256: 2f90489ee53ede68d2d0ef451d125cc01d57f8392c505f733ca658d8a4e05d96
+  url: https://github.com/PreibischLab/STIM/archive/refs/tags/v0.2.0.zip
+  sha256: b09f72c33efd87f0251e00e8f70cba33c94f4857538e0d2b70d8aa3b3632f297
 
 build:
   number: 0
