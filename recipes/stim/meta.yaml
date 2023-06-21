@@ -14,13 +14,13 @@ build:
 requirements:
   build:
     - openjdk
-    - mvn
+    - maven
   run:
     - openjdk
 
 test:
   commands:
-    - ls -1 st-*
+    - st-help --version
 
 about:
   home: https://github.com/PreibischLab/STIM
