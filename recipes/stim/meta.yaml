@@ -6,17 +6,17 @@ package:
 
 source:
   url: https://github.com/PreibischLab/STIM/archive/refs/tags/v0.2.0.zip
-  sha256: b09f72c33efd87f0251e00e8f70cba33c94f4857538e0d2b70d8aa3b3632f297
+  sha256: e5a9b2048c4077b5091be3b34194a9e84d14acbd7dcf1d9585f013bc8c63b710
 
 build:
   number: 0
 
 requirements:
   build:
-    - openjdk
+    - openjdk >=8,<9
     - maven
   run:
-    - openjdk
+    - openjdk >=8,<9
 
 test:
   commands:
