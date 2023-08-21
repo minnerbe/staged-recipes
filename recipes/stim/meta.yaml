@@ -17,6 +17,7 @@ requirements:
     - maven
   run:
     - openjdk >=8,<9
+    - blosc
 
 test:
   commands:
