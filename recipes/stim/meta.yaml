@@ -5,18 +5,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/PreibischLab/STIM/archive/refs/tags/v0.2.0.zip
-  sha256: e5a9b2048c4077b5091be3b34194a9e84d14acbd7dcf1d9585f013bc8c63b710
+  url: https://github.com/PreibischLab/STIM/archive/refs/tags/v0.3.0-alpha.zip
+  sha256: 0827c60deb6af9021ab7f08e0a23f9dd2d0aee3df7f2ccb075022dad31b8471d
 
 build:
   number: 0
 
 requirements:
   build:
-    - openjdk >=8,<9
     - maven
+  host:
+    - openjdk
   run:
-    - openjdk >=8,<9
     - blosc
 
 test:
